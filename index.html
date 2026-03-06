@@ -18,45 +18,52 @@
 	
 	<section class="pt-10 pb-16 px-6 max-w-7xl mx-auto bg-white rounded-3xl shadow-sm mb-16 border border-gray-100">
     <h2 class="text-3xl font-bold mb-10 border-l-8 border-blue-600 pl-4">Profile</h2>
-    
-    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-16">
-        <div class="space-y-6">
-            
-			<h3 class="text-xl font-bold text-blue-600 flex items-center gap-2">
-				<i class="fa fa-user"></i> 인적사항
-			</h3>
-			
-			<ul class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-4 mt-4">
-				<li class="flex border-b pb-2">
-					<span class="text-gray-500 w-24 shrink-0">성명 / 성별</span>
-					<span class="font-medium pl-4">이상욱 / 남 (1976년생)</span>
-				</li>
-				<li class="flex border-b pb-2">
-					<span class="text-gray-500 w-24 shrink-0">소속 / 직위</span>
-					<span class="font-medium pl-4">㈜더그리드 / 개발팀장</span>
-				</li>
-				
-				<li class="flex border-b pb-2">
-					<span class="text-gray-500 w-24 shrink-0">연락처</span>
-					<span class="font-medium pl-4">010-3144-1566</span>
-				</li>
-				<li class="flex border-b pb-2">
-					<span class="text-gray-500 w-24 shrink-0">E-Mail</span>
-					<span class="font-medium pl-4 ">swlee@thegrid.co.kr</span>
-				</li>
 
-				<li class="flex border-b pb-2 md:col-span-2">
-					<span class="text-gray-500 w-24 shrink-0">주소</span>
-					<span class="font-medium pl-4 text-slate-700">서울시 양천구 오목로 354 목동센트럴푸르지오</span>
-				</li>
+    <div class="mb-10">
+        <h3 class="text-xl font-bold text-blue-600 flex items-center gap-2 mb-6">
+            <i class="fa fa-address-card"></i> 인적사항
+        </h3>
 
-				<li class="flex border-b pb-2 md:col-span-2 items-center">
-					<span class="text-gray-500 w-24 shrink-0">총 경력</span>
-					<span class="font-bold text-blue-600 text-lg pl-4">24년</span>
-				</li>
-			</ul>
-			
+        <div class="flex flex-col md:flex-row gap-10 items-start">
+            <div class="flex-shrink-0 mx-auto md:mx-0">
+                <div class="w-[109px] h-[139px] bg-slate-100 rounded-lg border border-gray-200 shadow-sm overflow-hidden relative">
+                    <img src="photo.png" alt="사진" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 flex items-center justify-center bg-slate-100 text-slate-300 -z-10">
+                        <i class="fa fa-user text-4xl"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex-1 w-full">
+                <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-3">
+                    <li class="flex border-b pb-2">
+                        <span class="text-gray-500 w-24 shrink-0 text-sm">성명 / 성별</span>
+                        <span class="font-medium pl-4 text-sm">이상욱 / 남 (1976년생)</span>
+                    </li>
+                    <li class="flex border-b pb-2">
+                        <span class="text-gray-500 w-24 shrink-0 text-sm">소속 / 직위</span>
+                        <span class="font-medium pl-4 text-sm">㈜더그리드 / 개발팀장</span>
+                    </li>
+                    <li class="flex border-b pb-2">
+                        <span class="text-gray-500 w-24 shrink-0 text-sm">연락처</span>
+                        <span class="font-medium pl-4 text-sm">010-3144-1566</span>
+                    </li>
+                    <li class="flex border-b pb-2">
+                        <span class="text-gray-500 w-24 shrink-0 text-sm">E-Mail</span>
+                        <span class="font-medium pl-4 text-sm">swlee@thegrid.co.kr</span>
+                    </li>
+                    <li class="flex border-b pb-2 md:col-span-2">
+                        <span class="text-gray-500 w-24 shrink-0 text-sm">주소</span>
+                        <span class="font-medium pl-4 text-sm text-slate-700">서울시 양천구 오목로 354 목동센트럴푸르지오</span>
+                    </li>
+                    <li class="flex border-b pb-2 md:col-span-2 items-center">
+                        <span class="text-gray-500 w-24 shrink-0 text-sm">총 경력</span>
+                        <span class="font-bold text-blue-600 text-lg pl-4">24년</span>
+                    </li>
+                </ul>
+            </div>
         </div>
+    </div>
 
         <div class="space-y-6">
             <h3 class="text-xl font-bold text-blue-600 flex items-center gap-2">
@@ -82,7 +89,7 @@
         </div>
     </div>
 
-    <div class="space-y-8">
+    <div class="space-y-8 mt-10">
         <h3 class="text-xl font-bold text-blue-600 flex items-center gap-2 mb-6">
             <i class="fa fa-briefcase"></i> 상세 경력 사항
         </h3>
@@ -659,7 +666,3 @@
 
 </body>
 </html>
-
-
-
-
