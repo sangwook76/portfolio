@@ -164,9 +164,10 @@
     <div class="space-y-8 mt-10">
         <h3 class="text-xl font-bold text-blue-600 flex items-center gap-2 mb-6">
             <i class="fa fa-briefcase"></i> 상세 경력 사항
-        </h3>
-
-		<div class="relative md:col-span-2">
+        </h3>	
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10 relative border-l-2 border-gray-100 ml-3 pl-8">
+			<div class="relative md:col-span-2">
 
 		    <div class="absolute -left-[41px] top-1 w-4 h-4 
 		                bg-blue-600 rounded-full border-4 border-white 
@@ -194,8 +195,7 @@
 		    </p>
 		
 		</div>
-        
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-10 relative border-l-2 border-gray-100 ml-3 pl-8">
+			
             <div class="relative">
                 <div class="absolute -left-[41px] top-1 w-4 h-4 bg-blue-600 rounded-full border-4 border-white ring-1 ring-blue-600"></div>
                 <p class="text-[11px] font-bold text-blue-600">2011.09 - 현재</p>
@@ -252,32 +252,89 @@
 		<h2 class="text-3xl font-bold mb-8 border-l-8 border-blue-600 pl-4">Core Tech Stack</h2>
 		
 		<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-			
-			<div class="bg-white p-5 rounded-xl shadow-sm text-center border-t-4 border-blue-500 hover:shadow-md transition-shadow">
-				<p class="text-gray-400 text-[10px] mb-1 uppercase tracking-tighter">Main Backend</p>
-				<div class="font-bold text-lg xl:text-xl whitespace-nowrap text-slate-700">PHP (CI4)</div>
-			</div>
 
-			<div class="bg-white p-5 rounded-xl shadow-sm text-center border-t-4 border-blue-500 hover:shadow-md transition-shadow">
-				<p class="text-gray-400 text-[10px] mb-1 uppercase tracking-tighter">Enterprise Dev</p>
-				<div class="font-bold text-lg xl:text-xl whitespace-nowrap text-slate-700">ASP.NET (C#)</div>
-			</div>
-
-			<div class="bg-white p-5 rounded-xl shadow-sm text-center border-t-4 border-blue-500 hover:shadow-md transition-shadow">
-				<p class="text-gray-400 text-[10px] mb-1 uppercase tracking-tighter">Infrastructure</p>
-				<div class="font-bold text-base xl:text-lg whitespace-nowrap tracking-tight text-slate-700">
-					AWS / Linux / Windows
-				</div>
-			</div>
-
-			<div class="bg-white p-5 rounded-xl shadow-sm text-center border-t-4 border-blue-500 hover:shadow-md transition-shadow">
-				<p class="text-gray-400 text-[10px] mb-1 uppercase tracking-tighter">Database Management</p>
-				<div class="font-bold text-base xl:text-lg whitespace-nowrap tracking-tighter text-slate-700">
-					MS-SQL / Oracle / Maria DB
-				</div>
-			</div>
-
+		    <div class="bg-white p-5 rounded-xl shadow-sm text-center border-t-4 border-blue-500">
+		        <p class="text-gray-400 text-[10px] mb-1 uppercase">
+		            Backend
+		        </p>
+		
+		        <div class="font-bold text-lg text-slate-700">
+		            Python / FastAPI
+		        </div>
+		    </div>
+		
+		    <div class="bg-white p-5 rounded-xl shadow-sm text-center border-t-4 border-blue-500">
+		        <p class="text-gray-400 text-[10px] mb-1 uppercase">
+		            Web Development
+		        </p>
+		
+		        <div class="font-bold text-lg text-slate-700">
+		            ASP / ASP.NET / PHP
+		        </div>
+		    </div>
+		
+		    <div class="bg-white p-5 rounded-xl shadow-sm text-center border-t-4 border-blue-500">
+		        <p class="text-gray-400 text-[10px] mb-1 uppercase">
+		            Cloud
+		        </p>
+		
+		        <div class="font-bold text-lg text-slate-700">
+		            AWS / ECS / S3
+		        </div>
+		    </div>
+		
+		    <div class="bg-white p-5 rounded-xl shadow-sm text-center border-t-4 border-blue-500">
+		        <p class="text-gray-400 text-[10px] mb-1 uppercase">
+		            Data Pipeline
+		        </p>
+		
+		        <div class="font-bold text-lg text-slate-700">
+		            Airflow / Parquet
+		        </div>
+		    </div>
+		
+		    <div class="bg-white p-5 rounded-xl shadow-sm text-center border-t-4 border-blue-500">
+		        <p class="text-gray-400 text-[10px] mb-1 uppercase">
+		            Database
+		        </p>
+		
+		        <div class="font-bold text-lg text-slate-700">
+		            MSSQL / Oracle / MariaDB
+		        </div>
+		    </div>
+		
+		    <div class="bg-white p-5 rounded-xl shadow-sm text-center border-t-4 border-blue-500">
+		        <p class="text-gray-400 text-[10px] mb-1 uppercase">
+		            Container
+		        </p>
+		
+		        <div class="font-bold text-lg text-slate-700">
+		            Docker
+		        </div>
+		    </div>
+		
+		    <div class="bg-white p-5 rounded-xl shadow-sm text-center border-t-4 border-blue-500">
+		        <p class="text-gray-400 text-[10px] mb-1 uppercase">
+		            Infrastructure
+		        </p>
+		
+		        <div class="font-bold text-lg text-slate-700">
+		            Linux / Windows / Nginx
+		        </div>
+		    </div>
+		
+		    <div class="bg-white p-5 rounded-xl shadow-sm text-center border-t-4 border-blue-500">
+		        <p class="text-gray-400 text-[10px] mb-1 uppercase">
+		            Architecture
+		        </p>
+		
+		        <div class="font-bold text-lg text-slate-700">
+		            API / Data Architecture
+		        </div>
+		    </div>
+		
 		</div>
+		
 		
 	</section>
 
@@ -301,7 +358,84 @@
 				</thead>
 				
 				<tbody class="text-xs md:text-sm text-slate-700">
+					<tr>
+
+					    <td class="p-4 border border-slate-200 text-center">
+					        27
+					    </td>
 					
+					    <td class="p-4 border border-slate-200 font-bold">
+					        AWS 기반 부동산 데이터 플랫폼 구축
+					    </td>
+					
+					    <td class="p-4 border border-slate-200 text-center">
+					        프롭티어
+					    </td>
+					
+					    <td class="p-4 border border-slate-200 whitespace-nowrap text-center">
+					        2026.04 ~ 2026.12
+					    </td>
+					
+					    <td class="p-4 border border-slate-200 leading-relaxed">
+					
+					        <span class="tech-tag text-blue-700 font-semibold">
+					            AWS
+					        </span><br>
+					
+					        <span class="tech-tag">
+					            ECS / EC2 / ALB / NLB
+					        </span><br>
+					
+					        <span class="tech-tag">
+					            S3 / MWAA
+					        </span><br>
+					
+					        <span class="tech-tag">
+					            Python / FastAPI
+					        </span><br>
+					
+					        <span class="tech-tag">
+					            Airflow
+					        </span><br>
+					
+					        <span class="tech-tag">
+					            Docker
+					        </span><br>
+					
+					        <span class="tech-tag">
+					            MSSQL / Parquet
+					        </span>
+					
+					    </td>
+					
+					    <td class="p-4 border border-slate-200 leading-relaxed">
+					
+					        <strong>
+					            AWS 기반 대용량 부동산 데이터 수집 및 처리 플랫폼 아키텍처 구축
+					        </strong><br>
+					
+					        CoreLogic, CoreData, Collect API 기반 서비스 분리 아키텍처 설계 및
+					        Python API 서비스 개발.
+					        Airflow(MWAA) 기반 데이터 수집 및 배치 처리 파이프라인 구성,
+					        S3 기반 데이터 저장 및 Parquet 데이터 처리 구조 설계.
+					
+					        <br><br>
+					
+					        MSSQL 대용량 데이터 처리 및 배치 최적화,
+					        Docker 기반 서비스 배포 환경 구성,
+					        ALB/NLB 기반 서비스 통신 구조 설계 및
+					        서비스별 타임아웃 및 네트워크 설정 최적화 수행.
+					
+					    </td>
+					
+					    <td class="p-4 border border-slate-200 text-center 
+					               font-bold text-blue-600">
+					
+					        100%
+					
+					    </td>
+					
+					</tr>
 					<tr>
 						<td class="p-4 border border-slate-200 text-center">26</td>
 						<td class="p-4 border border-slate-200 font-bold ">특송 솔루션 개발</td>
